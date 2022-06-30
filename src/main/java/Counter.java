@@ -3,13 +3,14 @@ package src.main.java;
 public class Counter {
 
 	private int count;
+	String reset;
 	
 	public Counter() {
 		this.reset();
 	}
 		
 	public void reset() {
-		count = 0;
+		count = null;
 	}
 	
 	public void increment() {
